@@ -1,0 +1,31 @@
+name: biztrack
+description: Business analytics and performance tracking dashboard for monitoring KPIs, revenue, and operations.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  fluttertoast: ^8.2.4
+  flutter_svg: ^2.0.10
+  url_launcher: ^6.2.4
+  charts_flutter: ^0.12.0
+  syncfusion_flutter_charts: ^26.2.9
+  badges: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
