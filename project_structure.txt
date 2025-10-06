@@ -1,0 +1,39 @@
+/lib
+  main.dart
+  /screens
+    login_screen.dart
+    dashboard_screen.dart
+    kpi_overview_screen.dart
+    report_screen.dart
+    analytics_screen.dart
+  /widgets
+  /models
+  /providers
+  /services
+    api_service.dart
+    chart_service.dart
+    auth_service.dart
+    notification_service.dart
+
+/backend
+  server.js
+  /routes
+    auth.js
+    metrics.js
+    reports.js
+  /controllers
+  /models
+  /middlewares
+  /config
+    db.js
+    mail.js
+
+/assets
+  /images
+  /icons
+
+/docs
+  api_endpoints.md
+  system_architecture.png
+  feature_list.md
+  dashboard_mockup.png
